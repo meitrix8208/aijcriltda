@@ -9,8 +9,12 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
+    "@nuxt/devtools": "^0.6.1",
     "@types/node": "^18",
-    "nuxt": "^3.5.2"
+    "@unocss/nuxt": "^0.53.1",
+    "nuxt": "^3.5.3"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.53.1"
   }
 }
