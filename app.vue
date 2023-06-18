@@ -31,6 +31,6 @@ const title = computed(() => {
 });
 useSeoMeta({
   title: () => `asesorías integrales - ${String(title.value)}`,
-  description: "asesorías integrales juan Carlos Rodriguez",
+  description: "asesorías integrales juan Carlos Rodriguez iglesias limitada",
 });
 </script>

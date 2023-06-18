@@ -1,6 +1,6 @@
 <template>
   <NavBar />
-  <div class="pl">
+  <div class="pl .dark:text-gray-100">
     <slot />
   </div>
 </template>
