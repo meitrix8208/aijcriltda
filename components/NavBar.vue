@@ -1,14 +1,27 @@
 <template>
   <nav class="bg-green border-gray-400 dark:bg-gray-700">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-around mx-auto p-4">
-      <NuxtLink to="/" class="flex items-center">
-        <img src="favicon.ico" class="h-12 mr-3" alt="asesorías Logo" />
-        <span class="self-center md:text-lg text-wrap font-semibold dark:text-gray100 text-black">Asesorías Integrales<wbr/> Juan Carlos Rodriguez Iglesias Ltda</span>
+    <div
+      class="max-w-screen-xl flex flex-wrap items-center justify-around mx-auto p-4"
+      ref="target"
+    >
+      <NuxtLink
+        to="/"
+        class="flex items-center"
+      >
+        <img
+          src="favicon.ico"
+          class="h-12 mr-3"
+          alt="asesorías Logo"
+        />
+        <span
+          class="self-center md:text-lg text-wrap font-semibold dark:text-gray100 text-black"
+          >Asesorías Integrales<wbr /> Juan Carlos Rodriguez Iglesias Ltda</span
+        >
       </NuxtLink>
       <button
         data-collapse-toggle="navbar-default"
-        type="button" 
-        class="inline-flex items-center p-2 ml-3 text-sm text-gray-900 rounded-lg md:hidden hover:bg-white hover:text-gray-900 focus:outline-none  dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        type="button"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-900 rounded-lg md:hidden hover:bg-white hover:text-gray-900 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-default"
         aria-expanded="false"
         @click="isMenuOpen = !isMenuOpen"
@@ -31,7 +44,7 @@
       <div
         class="w-full md:block md:w-auto dark:bg-transparent bg-green md:bg-transparent md:shadow-none"
         id="navbar-default"
-        :class="{ 'block': isMenuOpen, 'hidden': !isMenuOpen }"
+        :class="{ block: isMenuOpen, hidden: !isMenuOpen }"
       >
         <ul
           class="font-medium flex flex-col p-1 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-green dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700"
@@ -47,7 +60,7 @@
           <li>
             <NuxtLink
               to="/about"
-              class="block py-2 pl-3 pr-4  rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 pl-3 pr-4 rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
               About
             </NuxtLink>
@@ -76,6 +89,9 @@
               Contact
             </NuxtLink>
           </li>
+            <ColorMode />
+            <DropDown :double="double"  :dropdown="dropdown"/>
+          
         </ul>
       </div>
     </div>
@@ -84,4 +100,13 @@
 
 <script setup lang="ts">
 const isMenuOpen = ref(false);
+const target = ref(null);
+const double = ref(false);
+const dropdown = ref(false);
+import { onClickOutside } from "@vueuse/core";
+onClickOutside(target, (event: any) => {
+  isMenuOpen.value = false;
+  double.value = true;
+  dropdown.value = true;
+});
 </script>

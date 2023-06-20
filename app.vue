@@ -6,6 +6,7 @@
 
 <script setup lang="ts">
 import defaultLayout from "@/layouts/default.vue";
+
 useHead({
   bodyAttrs: {
     class: "bg-gray-100 dark:bg-gray-900",
@@ -21,6 +22,7 @@ useHead({
     },
   ],
 });
+
 const route = useRoute();
 
 const title = computed(() => {
@@ -31,6 +33,18 @@ const title = computed(() => {
 });
 useSeoMeta({
   title: () => `asesorías integrales - ${String(title.value)}`,
-  description: "asesorías integrales juan Carlos Rodriguez iglesias limitada",
+  description: "En Asesorías Integrales Juan Carlos Rodriguez Iglesias LTDA., brindamos asesoramiento y acompañamiento, para la óptima gestión de la seguridad y salud en el trabajo, con Profesionales especializados, implementación del SG-SST, capacitaciones, asesorías, auditorías, entre otros.",
 });
 </script>
+
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.2s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+</style>
