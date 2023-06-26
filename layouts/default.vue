@@ -1,12 +1,12 @@
 <template>
   <NavBar />
-  <div class="pl .dark:text-gray-100">
+  <div class="pl dark:text-gray-100">
     <slot />
   </div>
+  <!-- <FooterComp/> -->
 </template>
 
 <script setup lang="ts">
-import NavBar from "@/components/NavBar.vue";
 </script>
 
 <style></style>

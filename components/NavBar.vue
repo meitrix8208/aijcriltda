@@ -9,7 +9,7 @@
         class="flex items-center"
       >
         <img
-          src="favicon.ico"
+          src="/favicon.ico"
           class="h-12 mr-3"
           alt="asesorías Logo"
         />
