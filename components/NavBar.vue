@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-green border-gray-400 dark:bg-gray-700">
     <div
-      class="max-w-screen-xl flex flex-wrap items-center justify-around mx-auto p-4"
+      class="max-w-screen-xl flex flex-wrap sm:justify-around items-center justify-between mx-auto p-4"
       ref="target"
     >
       <NuxtLink
@@ -14,8 +14,8 @@
           alt="asesorías Logo"
         />
         <span
-          class="self-center md:text-lg text-wrap font-semibold dark:text-gray100 text-black"
-          >Asesorías Integrales<wbr /> Juan Carlos Rodriguez Iglesias Ltda</span
+          class="self-center text-2.4 md:text-lg text-wrap font-semibold dark:text-gray100 text-black"
+          >Asesorías Integrales Juan Carlos Rodriguez Iglesias Ltda</span
         >
       </NuxtLink>
       <button

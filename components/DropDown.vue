@@ -3,9 +3,9 @@
     <div class="relative">
       <button
         id="dropdownNavbarLink"
-        @click="dropdownNavbar = !dropdownNavbar"
+        @click="toggleDropdown"
         data-dropdown-toggle="dropdownNavbar"
-        class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+        class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
       >
         Dropdown
         <svg
@@ -24,7 +24,7 @@
       </button>
       <!-- Dropdown menu -->
       <div
-      ref="target"
+        ref="target"
         id="dropdownNavbar"
         :class="{ block: dropdownNavbar, hidden: !dropdownNavbar }"
         class="z-10 absolute top-full right-0 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
@@ -127,8 +127,6 @@
 </template>
 
 <script setup lang="ts">
-// const dropdownNavbar = ref(false);
-// const doubleDropdown = ref(false);
 const props = defineProps({
   dropdown: Boolean,
   double: Boolean,
@@ -137,8 +135,16 @@ const props = defineProps({
 const dropdownNavbar = ref(props.dropdown);
 const doubleDropdown = ref(props.double);
 const target = ref(null);
-import { onClickOutside } from "@vueuse/core";
+const toggleDropdown = () => {
+  if (dropdownNavbar.value) {
+    dropdownNavbar.value = false;
+  } else {
+    dropdownNavbar.value = true;
+  }
+};
 onClickOutside(target, (event: any) => {
+  const dropdownNavbarE = document.getElementById("dropdownNavbarLink");
+  if (event.target.id === dropdownNavbarE?.id) return;
   dropdownNavbar.value = false;
   doubleDropdown.value = false;
 });

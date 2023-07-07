@@ -9,7 +9,7 @@ import defaultLayout from "@/layouts/default.vue";
 
 useHead({
   bodyAttrs: {
-    class: "bg-gray-100 dark:bg-gray-900",
+    class: "bg-white dark:bg-gray-900",
   },
   htmlAttrs: {
     lang: "es",

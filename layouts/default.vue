@@ -1,12 +1,31 @@
 <template>
   <NavBar />
-  <div class="pl dark:text-gray-100">
+  <ContainerPage>
     <slot />
-  </div>
-  <!-- <FooterComp/> -->
+  </ContainerPage>
+  <FooterComp />
 </template>
 
-<script setup lang="ts">
-</script>
+<style>
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #9ca3af #ffffff;
+}
 
-<style></style>
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 9px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #a4a1a5;
+  border-radius: 0px;
+  border: 6px none #ffffff;
+}
+</style>
