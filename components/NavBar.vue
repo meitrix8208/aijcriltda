@@ -8,14 +8,14 @@
         to="/"
         class="flex items-center"
       >
-        <img
-          src="/favicon.ico"
+        <NuxtImg
+          src="/favicon.png"
           class="h-12 mr-3"
           alt="asesorías Logo"
         />
         <span
-          class="self-center text-2.4 md:text-lg text-wrap font-semibold dark:text-gray100 text-black"
-          >Asesorías Integrales Juan Carlos Rodriguez Iglesias Ltda</span
+          class="self-center text-3.3  md:text-lg text-wrap font-bold dark:text-gray100 text-black"
+          >Asesorías Integrales <wbr />Juan<wbr /> Carlos<wbr /> Rodriguez<wbr /> Iglesias<wbr /> Ltda</span
         >
       </NuxtLink>
       <button
@@ -89,9 +89,11 @@
               Contact
             </NuxtLink>
           </li>
-            <ColorMode />
-            <DropDown :double="double"  :dropdown="dropdown"/>
-          
+          <ColorMode />
+          <DropDown
+            :double="double"
+            :dropdown="dropdown"
+          />
         </ul>
       </div>
     </div>

@@ -10,20 +10,6 @@
   <br />
   <br />
   <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
   <footer class="bg-white dark:bg-gray-900">
     <hr class="my-6 border-green-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -33,8 +19,8 @@
             href="https://flowbite.com/"
             class="flex items-center"
           >
-            <img
-              src="/favicon.ico"
+            <NuxtImg
+              src="/favicon.png"
               class="h-8 mr-3"
               alt="FlowBite Logo"
             />
