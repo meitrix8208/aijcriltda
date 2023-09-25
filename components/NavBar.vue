@@ -21,7 +21,7 @@
       <button
         data-collapse-toggle="navbar-default"
         type="button"
-        class="inline-flex items-center p-2 ml-3 text-sm text-gray-900 rounded-lg md:hidden hover:bg-white hover:text-gray-900 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-900 rounded-lg md:hidden hover:bg-white dark:hover:text-white focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-default"
         aria-expanded="false"
         @click="isMenuOpen = !isMenuOpen"
@@ -90,10 +90,10 @@
             </NuxtLink>
           </li>
           <ColorMode />
-          <DropDown
+          <!-- <DropDown
             :double="double"
             :dropdown="dropdown"
-          />
+          /> -->
         </ul>
       </div>
     </div>
@@ -102,13 +102,13 @@
 
 <script setup lang="ts">
 const isMenuOpen = ref(false);
-const target = ref(null);
-const double = ref(false);
-const dropdown = ref(false);
-import { onClickOutside } from "@vueuse/core";
-onClickOutside(target, (event: any) => {
-  isMenuOpen.value = false;
-  double.value = true;
-  dropdown.value = true;
-});
+// const target = ref(null);
+// const double = ref(false);
+// const dropdown = ref(false);
+// import { onClickOutside } from "@vueuse/core";
+// onClickOutside(target, (event: any) => {
+//   isMenuOpen.value = false;
+//   double.value = true;
+//   dropdown.value = true;
+// });
 </script>

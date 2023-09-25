@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h1>ASESORIAS INTEGRALES JUAN CARLOS RODRIGUEZ IGLESIAS LTDA.</h1>
-    <p>
+  <section>
+    <h1 class="text-green text-xl font-bold pb-3">ASESORÍAS INTEGRALES JUAN CARLOS RODRIGUEZ IGLESIAS LTDA.</h1>
+    <p class="pb-5">
       Es una firma dedicada a la prestación de servicios de asesorías y
       consultorías en materia de Seguridad Industrial e Higiene Industrial,
       Sistemas Integrados de Gestión (Sistemas de Gestión de Calidad SGC “NTC
@@ -12,7 +12,7 @@
       integralidad e interdisciplinariedad formulados para el óptimo desarrollo
       de las actividades.
     </p>
-    <p>
+    <p class="pb-29">
       Como muestra de nuestro compromiso hacia las empresas en las cuales la
       salud ocupacional requiere un manejo eficaz y oportuno de sus recursos,
       nuestra compañía contribuirá en la ejecución e implementación de
@@ -23,5 +23,5 @@
       exigidos por la ley; permitiendo utilizar esta área como fuente de
       búsqueda de mejoras a través de los sistemas integrales de gestión.
     </p>
-  </div>
+  </section>
 </template>

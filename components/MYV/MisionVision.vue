@@ -4,7 +4,7 @@
     >Misión</h1>
     <hr class="border-green">
     <p>
-      ASESORIAS INTEGRALES JUAN CARLOS RODRIGUEZ IGLESIAS LTDA., es una firma
+      ASESORÍAS INTEGRALES JUAN CARLOS RODRIGUEZ IGLESIAS LTDA., es una firma
       comprometida con las Empresas, la cual esta presta a contribuir con el
       mejoramiento continuo de la calidad de vida en los procesos productivos,
       participando en la creación de ambientes laborales sanos y seguros, que
@@ -16,7 +16,7 @@
     <h1 class="text-3xl font-bold text-center pt-4 pb-4"
     >Visión</h1>
     <hr class="border-green">
-    <p>
+    <p class="pb-37.6">
       Para el 2020 ser reconocido en la costa Caribe como una empresa
       especialista en sistemas integrados de Gestión, contar con unas
       instalaciones propias para realizar pistas para entrenamiento de trabajos

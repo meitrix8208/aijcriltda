@@ -33,8 +33,8 @@
 </template>
 
 <script setup lang="ts">
-import NosotrosComp from "@/components/NosotrosComp.vue";
-import MisionVision from "@/components/MisionVision.vue";
+import NosotrosComp from "~/components/MYV/NosotrosComp.vue";
+import MisionVision from "~/components/MYV/MisionVision.vue";
 
 // crear currentComponent en donde se utilizará el componente que se desea mostrar
 const currentComponent = shallowRef(NosotrosComp);
