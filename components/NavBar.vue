@@ -1,27 +1,32 @@
 <template>
   <nav class="bg-green border-gray-400 dark:bg-gray-700">
     <div
-      class="max-w-screen-xl flex flex-wrap sm:justify-around items-center justify-between mx-auto p-4"
+      class="max-w-screen-xl flex flex-wrap  sm:justify-around items-center justify-between mx-auto p-4"
       ref="target"
     >
       <NuxtLink
         to="/"
         class="flex items-center"
       >
-        <NuxtImg
+        <img
           src="/favicon.png"
           class="h-12 mr-3"
           alt="asesorías Logo"
         />
-        <span
-          class="self-center text-3.3  md:text-lg text-wrap font-bold dark:text-gray100 text-black"
-          >Asesorías Integrales <wbr />Juan<wbr /> Carlos<wbr /> Rodriguez<wbr /> Iglesias<wbr /> Ltda</span
+        <div
+          class="self-center text-3.3 md:text-lg text-wrap font-bold dark:text-gray100 text-black"
         >
+          <span
+          class="block sm:inline-block"
+          >Asesorías Integrales Juan </span>
+          <wbr />
+          <span>Carlos Rodriguez Iglesias Ltda</span>
+        </div>
       </NuxtLink>
       <button
         data-collapse-toggle="navbar-default"
         type="button"
-        class="inline-flex items-center p-2 ml-3 text-sm text-gray-900 rounded-lg md:hidden hover:bg-white dark:hover:text-white focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        class="flex items-center p-2 ml-3 text-sm text-gray-900 rounded-lg md:hidden hover:bg-white dark:hover:text-white focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-default"
         aria-expanded="false"
         @click="isMenuOpen = !isMenuOpen"

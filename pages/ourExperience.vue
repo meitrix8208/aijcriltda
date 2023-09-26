@@ -5,9 +5,9 @@
     <div>
       <ul>
         <li>
-          <NuxtImg
+          <img
             class="rounded-lg"
-            src="check.png"
+            src="/check.png"
             alt="check img"
           />
         </li>
