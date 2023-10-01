@@ -57,7 +57,7 @@
           <li>
             <NuxtLink
               to="/"
-              class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
               Home
             </NuxtLink>
@@ -65,7 +65,7 @@
           <li>
             <NuxtLink
               to="/about"
-              class="block py-2 pl-3 pr-4 rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 pl-3 pr-4 rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
               About
             </NuxtLink>
@@ -73,7 +73,7 @@
           <li>
             <NuxtLink
               to="/services"
-              class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
               Services
             </NuxtLink>
@@ -81,7 +81,7 @@
           <li>
             <NuxtLink
               to="/ourExperience"
-              class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
               Our Experience
             </NuxtLink>
@@ -89,7 +89,7 @@
           <li>
             <NuxtLink
               to="/contact"
-              class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
               Contact
             </NuxtLink>
