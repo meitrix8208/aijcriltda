@@ -15,7 +15,7 @@
       ></textarea>
       <br /><br />
 
-      <input
+      <button
         type="submit"
         @click="sendEmail()"
         value="Enviar correo"
@@ -24,9 +24,8 @@
   </section>
 </template>
 
-<script setup>
-import { ref } from "vue";
-const mensaje = ref("Mensaje predeterminado.");
+<script setup lang="ts">
+const mensaje = ref("");
 
 const sendEmail = () => {
   globalThis.open(`mailto:test@example.com?body=${mensaje.value}`);

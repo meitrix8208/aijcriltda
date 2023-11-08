@@ -1,7 +1,7 @@
 <template>
   <div id="default-carousel" class="relative">
     <!-- Carousel wrapper -->
-    <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-90">
+    <div class="overflow-hidden relative h-70 rounded-lg sm:h-64 xl:h-100 2xl:h-90">
       <!-- Item 1 -->
 <!--      duration-700 ease-in-out-->
       <div :class="index === currentPicture ? 'z-30' : 'z-0'"
