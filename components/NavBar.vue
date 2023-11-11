@@ -59,7 +59,7 @@
               to="/"
               class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
-              Home
+              Inicio
             </NuxtLink>
           </li>
           <li>
@@ -67,7 +67,7 @@
               to="/about"
               class="block py-2 pl-3 pr-4 rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
-              About
+              Nosotros
             </NuxtLink>
           </li>
           <li>
@@ -75,7 +75,7 @@
               to="/services"
               class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
-              Services
+              Servicios
             </NuxtLink>
           </li>
           <li>
@@ -83,7 +83,7 @@
               to="/ourExperience"
               class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
-              Our Experience
+              Nuestra Experiencia
             </NuxtLink>
           </li>
           <li>
@@ -91,7 +91,7 @@
               to="/contact"
               class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-700 hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
-              Contact
+              Contacto
             </NuxtLink>
           </li>
           <ColorMode />

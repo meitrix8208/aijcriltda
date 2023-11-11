@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-1 sm:grid-cols-4 gap-4 pt-14 justify-items-center">
-    <div class="pr-3">
+    <div class="pl-7">
       <ul>
         <li class="pt-4">
           <button

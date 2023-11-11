@@ -29,7 +29,7 @@
       <li class="pb-1"><span class="dark:text-white">Gerencia de proyectos</span></li>
       <li class="pb-1"><span class="dark:text-white">Capacitación ambiental</span></li>
       <li class="pb-1"><span class="dark:text-white">Evaluación Integra</span></li>
-      <li class="pb-1"><span class="dark:text-white">Auditorias al sistema de gestión MA</span></li>
+      <li class="pb-1"><span class="dark:text-white">Auditorias</span></li>
     </ul>
   </section>
 </template>
