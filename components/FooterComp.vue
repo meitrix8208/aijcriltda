@@ -19,7 +19,7 @@
             to="/"
             class="flex items-center"
           >
-            <img
+            <NuxtImg
               src="/favicon.png"
               class="h-8 mr-3"
               alt="company logo"
@@ -35,21 +35,21 @@
             <h2
               class="mb-6 text-sm font-semibold text-green-600 uppercase dark:text-white"
             >
-              Resources
+              Social
             </h2>
             <ul class="text-gray-600 dark:text-gray-400 font-medium">
               <li class="mb-4">
                 <a
-                  href="https://flowbite.com/"
+                  href="https://facebook.com/juancarlos.rodrigueziglesias.33"
                   class="hover:underline"
-                  >some</a
+                  >Facebook</a
                 >
               </li>
               <li>
                 <a
-                  href="https://tailwindcss.com/"
+                  href="https://instagram.com/"
                   class="hover:underline"
-                  >Tailwind CSS</a
+                  >Instagram</a
                 >
               </li>
             </ul>
@@ -63,16 +63,16 @@
             <ul class="text-gray-600 dark:text-gray-400 font-medium">
               <li class="mb-4">
                 <a
-                  href="https://github.com/themesberg/flowbite"
+                  href="https://twitter.com/"
                   class="hover:underline"
-                  >GitHub</a
+                  >Twitter</a
                 >
               </li>
               <li>
                 <a
-                  href="https://discord.gg/4eeurUVvTy"
+                  href="mailto:juancrodriguez6801@gmail.com?subject=Contacto desde la página web"
                   class="hover:underline"
-                  >Discord</a
+                  >Email</a
                 >
               </li>
             </ul>
@@ -81,21 +81,21 @@
             <h2
               class="mb-6 text-sm font-semibold text-green-600 uppercase dark:text-white"
             >
-              Legal
+              Resources
             </h2>
             <ul class="text-gray-600 dark:text-gray-400 font-medium">
               <li class="mb-4">
                 <a
-                  href="#"
+                  href="https://co.linkedin.com/in/juan-carlos-rodriguez-iglesias-1066931b4"
                   class="hover:underline"
-                  >Privacy Policy</a
+                  >LinkedIn</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://github.com/meitrix8208/aijcriltda"
                   class="hover:underline"
-                  >Terms &amp; Conditions</a
+                  >GitHub</a
                 >
               </li>
             </ul>
@@ -107,7 +107,7 @@
       />
       <div class="sm:flex sm:items-center sm:justify-between">
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-          >© 2023
+          >© {{ new Date().getFullYear()  }}
           <NuxtLink
             to="/"
             class="hover:underline"
@@ -116,7 +116,7 @@
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
-            href="#"
+            href="https://facebook.com/juancarlos.rodrigueziglesias.33"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
@@ -134,7 +134,7 @@
             <span class="sr-only">Facebook page</span>
           </a>
           <a
-            href="#"
+            href="https://instagram.com/"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
@@ -152,7 +152,7 @@
             <span class="sr-only">Instagram page</span>
           </a>
           <a
-            href="#"
+            href="https://twitter.com/"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
@@ -168,7 +168,7 @@
             <span class="sr-only">Twitter page</span>
           </a>
           <a
-            href="#"
+            href="https://github.com/meitrix8208/aijcriltda"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
@@ -187,7 +187,7 @@
           </a>
 
           <ColorMode />
-          <span class="sr-only">switch color</span>
+          <span class="sr-only">switch theme color</span>
         </div>
       </div>
     </div>

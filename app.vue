@@ -1,7 +1,12 @@
 <template>
-  <defaultLayout>
+
+  <NuxtLayout>
+
     <NuxtPage />
-  </defaultLayout>
+  </NuxtLayout>
+  
+
+
 </template>
 
 <script setup lang="ts">
@@ -47,6 +52,14 @@ const title = computed(() => {
 useSeoMeta({
   title: () => `asesorías integrales - ${String(title.value)}`,
   description: "En Asesorías Integrales Juan Carlos Rodriguez Iglesias LTDA., brindamos asesoramiento y acompañamiento, para la óptima gestión de la seguridad y salud en el trabajo, con Profesionales especializados, implementación del SG-SST, capacitaciones, asesorías, auditorías, entre otros.",
+  ogTitle: () => `asesorías integrales - ${String(title.value)}`,
+  ogDescription: "En Asesorías Integrales Juan Carlos Rodriguez Iglesias LTDA., brindamos asesoramiento y acompañamiento, para la óptima gestión de la seguridad y salud en el trabajo, con Profesionales especializados, implementación del SG-SST, capacitaciones, asesorías, auditorías, entre otros.",
+  ogImage: () => `https://aijcriltda.netlify.app/img3.jpg`,
+  ogUrl: "https://aijcriltda.netlify.app/",
+  twitterTitle: () => `asesorías integrales - ${String(title.value)}`,
+  twitterDescription: "En Asesorías Integrales Juan Carlos Rodriguez Iglesias LTDA., brindamos asesoramiento y acompañamiento, para la óptima gestión de la seguridad y salud en el trabajo, con Profesionales especializados, implementación del SG-SST, capacitaciones, asesorías, auditorías, entre otros.",
+  twitterImage: () => `https://aijcriltda.netlify.app/img3.jpg`,
+  twitterCard: "summary_large_image",
 });
 </script>
 

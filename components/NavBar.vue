@@ -8,7 +8,7 @@
         to="/"
         class="flex items-center"
       >
-        <img
+        <NuxtImg
           src="/favicon.png"
           class="h-12 mr-3"
           alt="asesorías Logo"

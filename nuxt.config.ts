@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     "@nuxt/devtools",
     "@nuxtjs/color-mode",
     "@vueuse/nuxt",
-    // "@nuxt/image",
+    "@nuxt/image"
   ],
   ssr: true,
   css: ["@unocss/reset/tailwind.css"],
