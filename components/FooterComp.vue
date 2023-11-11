@@ -47,7 +47,7 @@
               </li>
               <li>
                 <a
-                  href="https://instagram.com/"
+                  href="https://www.instagram.com/iglesiasjuancarlosrodriguez/"
                   class="hover:underline"
                   >Instagram</a
                 >
@@ -63,7 +63,7 @@
             <ul class="text-gray-600 dark:text-gray-400 font-medium">
               <li class="mb-4">
                 <a
-                  href="https://twitter.com/"
+                  href="https://twitter.com/JCR6801"
                   class="hover:underline"
                   >Twitter</a
                 >
@@ -134,7 +134,7 @@
             <span class="sr-only">Facebook page</span>
           </a>
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/iglesiasjuancarlosrodriguez/"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
@@ -152,7 +152,7 @@
             <span class="sr-only">Instagram page</span>
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://twitter.com/JCR6801"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
