@@ -13,7 +13,6 @@
       generadores de pérdidas para la organización; dentro de los principales
       servicios se encuentran:
     </p>
-    <!-- * green dot -->
     <ul class="pl-6 pt-7 list-disc">
       <li class="pb-60">
         <span class="dark:text-white">

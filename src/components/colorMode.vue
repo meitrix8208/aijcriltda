@@ -88,7 +88,7 @@ const toggleTheme = () => {
   } else if (colorMode.preference === "dark") {
     toLightMode();
     sayPreference();
-  }else if (colorMode.preference === "light") {
+  } else if (colorMode.preference === "light") {
     toSystemMode();
     sayPreference();
   }

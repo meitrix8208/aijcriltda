@@ -1,6 +1,8 @@
 <template>
   <section>
-    <h1 class="text-green text-xl font-bold pb-3">ASESORÍAS INTEGRALES JUAN CARLOS RODRIGUEZ IGLESIAS LTDA.</h1>
+    <h1 class="text-green text-xl font-bold pb-3">
+      ASESORÍAS INTEGRALES JUAN CARLOS RODRIGUEZ IGLESIAS LTDA.
+    </h1>
     <p class="pb-5">
       Es una firma dedicada a la prestación de servicios de asesorías y
       consultorías en materia de Seguridad Industrial e Higiene Industrial,

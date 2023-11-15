@@ -4,7 +4,7 @@
     <div class="overflow-hidden relative h-70 rounded-lg sm:h-64 xl:h-100 2xl:h-90">
       <!-- Item 1 -->
       <div :class="index === currentPicture ? 'z-30' : 'hidden z-0'"
-           v-for="(picture, index) in pictures" :key="index" class="absolute inset-0 -translate-y-0">
+          v-for="(picture, index) in pictures" :key="index" class="absolute inset-0 -translate-y-0">
         <img :src="picture.src" class="block absolute object-cover top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" :alt="picture.alt">
       </div>
     </div>

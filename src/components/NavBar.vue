@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-green border-gray-400 dark:bg-gray-700">
     <div
-      class="max-w-screen-xl flex flex-wrap  sm:justify-around items-center justify-between mx-auto p-4"
+      class="max-w-screen-xl flex flex-wrap sm:justify-around items-center justify-between mx-auto p-4"
       ref="target"
     >
       <NuxtLink
@@ -16,9 +16,7 @@
         <div
           class="self-center text-3.3 md:text-lg text-wrap font-bold dark:text-gray100 text-black"
         >
-          <span
-          class="block sm:inline-block"
-          >Asesorías Integrales Juan </span>
+          <span class="block sm:inline-block">Asesorías Integrales Juan </span>
           <wbr />
           <span>Carlos Rodriguez Iglesias Ltda</span>
         </div>

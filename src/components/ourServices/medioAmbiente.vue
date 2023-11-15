@@ -15,7 +15,6 @@
       RODRIGUEZ IGLESIAS LTDA. Adquiere este compromiso ofreciendo dentro del
       mayor rigor ético los siguientes servicios:
     </p>
-    <!-- * green dot -->
     <ul class="pl-6 pt-7 pb-20 list-disc">
       <li class="pb-1"><span
           class="dark:text-white"

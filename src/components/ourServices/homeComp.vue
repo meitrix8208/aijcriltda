@@ -11,7 +11,6 @@
       en el sistema de Riesgos Laborales, Asesoría Integrales Juan Carlos
       Rodríguez Iglesias Ltda, presenta sus servicios de:
     </p>
-    <!-- * green dot -->
     <ul class="pl-6 pt-7 list-disc">
       <li class="pb-1">
         <span class="dark:text-white">Formación y capacitación en SST</span>

@@ -8,7 +8,6 @@
       dentro de este se consideran las tres esferas del ser Funcional, Social y
       Laboral Dentro de los principales servicios se encuentran:
     </p>
-    <!-- * green dot -->
     <ul class="pl-6 pt-7 pb-45 list-disc">
       <li class="pb-1">
         <span class="dark:text-white"
@@ -36,9 +35,9 @@
         </span>
       </li>
       <li class="pb-1">
-        <span
-          class="dark:text-white"
-        > Programa de rehabilitación integral. </span>
+        <span class="dark:text-white">
+          Programa de rehabilitación integral.
+        </span>
       </li>
     </ul>
   </section>
