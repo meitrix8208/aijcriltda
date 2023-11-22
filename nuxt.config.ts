@@ -16,12 +16,8 @@ export default defineNuxtConfig({
     fallback: "light", // fallback value if not system preference found
     classSuffix: "",
   },
-  vite: {
-    resolve: {
-      alias: {
-        "@": new URL("./", import.meta.url).pathname,
-      },
-    },
+  image:{
+
   },
   app: {
     pageTransition: {

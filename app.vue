@@ -10,8 +10,6 @@
 </template>
 
 <script setup lang="ts">
-import defaultLayout from "@/layouts/default.vue";
-
 useHead({
   bodyAttrs: {
     class: "bg-white dark:bg-gray-900",

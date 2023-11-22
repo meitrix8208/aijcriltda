@@ -2,7 +2,7 @@
   <div class="ml-2 mt-0">
     <ClientOnly>
       <button
-        id="header__theme"
+        :id="'color-mode-button-'+ props.parent"
         @click="toggleTheme"
         :title="colorMode.preference"
         class="focus:outline-none text-gray-500"
@@ -62,6 +62,12 @@
 </template>
 
 <script setup lang="ts">
+const props = defineProps({
+  parent: {
+    type: String,
+    required: true,
+  },
+});
 const colorMode = useColorMode();
 const toLightMode = () => {
   colorMode.preference = "light";

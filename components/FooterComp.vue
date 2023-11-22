@@ -1,15 +1,4 @@
 <template>
-  <!-- <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br /> -->
   <footer class="bg-white dark:bg-gray-900">
     <hr class="my-6 border-green-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -19,10 +8,14 @@
             to="/"
             class="flex items-center"
           >
-            <NuxtImg
+            <NuxtPicture
+              loading="lazy"
+              format="webp"
               src="/favicon.png"
               class="h-8 mr-3"
               alt="company logo"
+              height="48"
+              width="48"
             />
             <span
               class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
@@ -107,7 +100,7 @@
       />
       <div class="sm:flex sm:items-center sm:justify-between">
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-          >© {{ new Date().getFullYear()  }}
+          >© {{ new Date().getFullYear() }}
           <NuxtLink
             to="/"
             class="hover:underline"
@@ -186,7 +179,9 @@
             <span class="sr-only">GitHub account</span>
           </a>
 
-          <ColorMode />
+          <ColorMode 
+          parent="footer"
+          />
           <span class="sr-only">switch theme color</span>
         </div>
       </div>

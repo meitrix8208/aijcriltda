@@ -3,8 +3,11 @@
     <section
       class="grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-4 pt-14 pb-30 items-center container mx-auto"
     >
-      <NuxtImg
-        class="w-110 h-70 rounded-lg shadow-2xl dark:shadow-none"
+      <NuxtPicture
+        height="300"
+        width="450"
+        format="webp"
+        class="rounded shadow-2xl dark:shadow-none"
         src="/img1.webp"
         alt="sistema de gestión de seguridad y salud en el trabajo"
       />
@@ -31,8 +34,11 @@
           <li>- Seguridad BASC</li>
         </ul>
       </div>
-      <NuxtImg
-        class="w-110 h-68 rounded-lg shadow-2xl dark:shadow-none"
+      <NuxtPicture
+        width="450"
+        height="300"
+        format="webp"
+        class="rounded-lg shadow-2xl dark:shadow-none"
         src="/img2.jpg"
         alt="sistema de gestión de seguridad y salud en el trabajo"
       />
@@ -40,8 +46,11 @@
     <section
       class="grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-4 pt-14 pb-30 items-center container mx-auto"
     >
-      <NuxtImg
-        class="w-110 h-70 rounded-lg shadow-2xl dark:shadow-none"
+      <NuxtPicture
+        width="450"
+        height="300"
+        format="webp"
+        class=" rounded-2xl shadow-2xl dark:shadow-none"
         src="/img3.jpg"
         alt="sistema de gestión de seguridad y salud en el trabajo"
       />
