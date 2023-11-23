@@ -39,7 +39,7 @@
       <Carousel
         :slide="true"
         :pictures="pictures1"
-        class="lg:col-span-2 sm:col-span-2 shadow-lg col-span-1 pb-4 pt-6"
+        class="lg:col-span-2 sm:col-span-2 col-span-1 pb-4 pt-6"
       />
       <section class="grid grid-cols-1 sm:grid-cols-2 lg:gap-5 gap-0">
         <section>
