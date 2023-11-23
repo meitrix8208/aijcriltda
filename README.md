@@ -1,24 +1,22 @@
-# Nuxt 3 Minimal Starter
+<!-- markdownlint-disable MD041 -->
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<img
+src="https://raw.githubusercontent.com/meitrix8208/aijcriltda/main/public/favicon.png"
+style="margin-left: auto; margin-right: auto; display: block; width: 100px; height: 100px;"
+ />
 
-## site
+# Asesorías Integrales Juan Carlos Rodríguez Iglesias Ltda.
 
-[link](https://aijcriltda.netlify.app/)
+## Site
+
+[![site - here](https://img.shields.io/badge/site-here-2ea44f?style=for-the-badge&logo=netlify)](https://aijcriltda.netlify.app)
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
 ```
 
 ## Development Server
@@ -26,14 +24,7 @@ yarn install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm run dev
-
-# yarn
-yarn dev
 ```
 
 ## Production
@@ -41,27 +32,11 @@ yarn dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
+pnpm run generate
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm run preview
-
-# yarn
-yarn preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
