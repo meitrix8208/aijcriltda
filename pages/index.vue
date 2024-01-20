@@ -7,11 +7,11 @@
         height="300"
         width="450"
         format="webp"
-        class="rounded shadow-2xl dark:shadow-none"
         src="/img1.webp"
+        :img-attrs="{ class: 'rounded-2xl shadow-2xl dark:shadow-none' }"
         alt="sistema de gestión de seguridad y salud en el trabajo"
       />
-      <p class="md:text-xl font-400">
+      <p class="md:text-xl font-400 text-pretty">
         Somos una firma dedicada a la prestación de servicios de asesorías y
         consultorías en materia de Seguridad y salud en el trabajo, brindando
         soluciones efectivas, con el fin de contribuir al logro de los objetivos
@@ -38,8 +38,8 @@
         width="450"
         height="300"
         format="webp"
-        class="rounded-lg shadow-2xl dark:shadow-none"
         src="/img2.jpg"
+        :img-attrs="{ class: 'rounded-2xl shadow-2xl dark:shadow-none' }"
         alt="sistema de gestión de seguridad y salud en el trabajo"
       />
     </section>
@@ -50,11 +50,11 @@
         width="450"
         height="300"
         format="webp"
-        class=" rounded-2xl shadow-2xl dark:shadow-none"
         src="/img3.jpg"
+        :img-attrs="{ class: 'rounded-2xl shadow-2xl dark:shadow-none' }"
         alt="sistema de gestión de seguridad y salud en el trabajo"
       />
-      <p class="md:text-2xl pl-3 font-400">
+      <p class="md:text-2xl pl-3 font-400 text-pretty">
         Contamos con un grupo de profesionales de diversas disciplinas que
         garantizan el cumplimiento del principio de integralidad e
         interdisciplinariedad formulados para el óptimo desarrollo de las

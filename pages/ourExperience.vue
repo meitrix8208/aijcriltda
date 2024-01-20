@@ -18,7 +18,7 @@
         Nuestra empresa es sinónimo de calidad y experiencia
       </h1>
       <hr class="border-green" />
-      <p class="pb-8">
+      <p class="pb-8 text-pretty">
         Es sinónimo de eficacia en cada uno de los trabajos encomendados por las
         organizaciones con el fin de mejorar en forma permanente la calidad de
         gestión en el campo de Seguridad Industrial, específicamente en Tareas
