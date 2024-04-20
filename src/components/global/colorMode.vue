@@ -2,7 +2,7 @@
   <div class="ml-2 mt-0">
     <ClientOnly>
       <button
-        :id="'color-mode-button-'+ props.parent"
+        :id="'color-mode-button-' + props.parent"
         @click="toggleTheme"
         :title="colorMode.preference"
         class="focus:outline-none text-gray-500"
@@ -94,7 +94,7 @@ const toggleTheme = () => {
   } else if (colorMode.preference === "dark") {
     toLightMode();
     sayPreference();
-  }else if (colorMode.preference === "light") {
+  } else if (colorMode.preference === "light") {
     toSystemMode();
     sayPreference();
   }

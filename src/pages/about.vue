@@ -1,28 +1,29 @@
 <template>
   <div class="grid grid-cols-1 sm:grid-cols-4 gap-4 pt-14 justify-items-center">
-      <ul class="pl-9.3">
-        <li>
-          <button
-            @click="changeComponent(NosotrosComp)"
-            class="bg-green-500 hover:bg-green-700 w-full text-white font-bold py-2 px-4 rounded"
-            :class="{'bg-green-900': currentComponent === NosotrosComp}"
-            >
-            Nosotros
-          </button>
-        </li>
-        <li class="pt-4">
-          <button
-            @click="changeComponent(MisionVision)"
-            class="bg-green-500 hover:bg-green-700 w-full text-white font-bold py-2 px-4 rounded"
-            :class="{'bg-green-900': currentComponent === MisionVision}"
-            >
-            Misión y Vision
-          </button>
-        </li>
-      </ul>
+    <ul class="pl-9.3">
+      <li>
+        <button
+          @click="changeComponent(NosotrosComp)"
+          class="bg-green-500 hover:bg-green-700 w-full text-white font-bold py-2 px-4 rounded"
+          :class="{ 'bg-green-900': currentComponent === NosotrosComp }"
+        >
+          Nosotros
+        </button>
+      </li>
+      <li class="pt-4">
+        <button
+          @click="changeComponent(MisionVision)"
+          class="bg-green-500 hover:bg-green-700 w-full text-white font-bold py-2 px-4 rounded"
+          :class="{ 'bg-green-900': currentComponent === MisionVision }"
+        >
+          Misión y Vision
+        </button>
+      </li>
+    </ul>
     <div class="col-span-3 w-full">
-      <transition name="slide-fade"
-      mode="out-in"
+      <transition
+        name="slide-fade"
+        mode="out-in"
       >
         <component :is="currentComponent" />
       </transition>

@@ -179,9 +179,7 @@
             <span class="sr-only">GitHub account</span>
           </a>
 
-          <ColorMode 
-          parent="footer"
-          />
+          <ColorMode parent="footer" />
           <span class="sr-only">switch theme color</span>
         </div>
       </div>

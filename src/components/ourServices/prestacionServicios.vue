@@ -15,54 +15,42 @@
     <!-- * green dot -->
     <ul class="pl-6 pt-7 pb-45 list-disc">
       <li class="pb-1">
-        <span
-          class="dark:text-white"
-        >
+        <span class="dark:text-white">
           Diseño e implementación de programas de vigilancia epidemiológica para
           riesgos prioritarios
         </span>
       </li>
       <li class="pb-1">
-        <span
-          class="dark:text-white"
-        > Diseño de programas de prevención de riesgos </span>
+        <span class="dark:text-white">
+          Diseño de programas de prevención de riesgos
+        </span>
       </li>
       <li class="pb-1">
-        <span
-          class="dark:text-white"
-        >
+        <span class="dark:text-white">
           Diseño e implementación de programas para disminución de ausentismo
           laboral.
         </span>
       </li>
       <li class="pb-1">
-        <span
-          class="dark:text-white"
-        >
+        <span class="dark:text-white">
           Diseño e implementación de programa para riesgos psicosociales
         </span>
       </li>
       <li class="pb-1">
-        <span
-          class="dark:text-white"
-        >
+        <span class="dark:text-white">
           Diseño e implementación de programa para riesgos ergonómicos
         </span>
       </li>
       <li class="pb-1">
-        <span
-          class="dark:text-white"
-        > Diseño de perfiles de cargos </span>
+        <span class="dark:text-white"> Diseño de perfiles de cargos </span>
       </li>
       <li class="pb-1">
-        <span
-          class="dark:text-white"
-        > Elaboración de diagnóstico de condiciones de salud </span>
+        <span class="dark:text-white">
+          Elaboración de diagnóstico de condiciones de salud
+        </span>
       </li>
       <li class="pb-1">
-        <span
-          class="dark:text-white"
-        >
+        <span class="dark:text-white">
           Necesidades de exámenes clínicos y para clínicos de ingreso,
           periódicos y de retiro según los riesgos de cada cargo
         </span>

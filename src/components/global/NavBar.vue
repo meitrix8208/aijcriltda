@@ -18,7 +18,9 @@
         <div
           class="self-center text-3.3 md:text-lg text-wrap font-bold dark:text-gray100 text-black"
         >
-          <span class="block sm:inline-block pr-1">Asesorías Integrales Juan </span>
+          <span class="block sm:inline-block pr-1"
+            >Asesorías Integrales Juan
+          </span>
           <span>Carlos Rodriguez Iglesias Ltda</span>
         </div>
       </NuxtLink>
