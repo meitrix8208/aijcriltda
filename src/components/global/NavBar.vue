@@ -110,13 +110,13 @@
 
 <script setup lang="ts">
 const isMenuOpen = ref(false);
-// const target = ref(null);
+const target = ref(null);
 // const double = ref(false);
-// const dropdown = ref(false);
-// import { onClickOutside } from "@vueuse/core";
-// onClickOutside(target, (event: any) => {
-//   isMenuOpen.value = false;
-//   double.value = true;
-//   dropdown.value = true;
-// });
+const dropdown = ref(false);
+import { onClickOutside } from "@vueuse/core";
+onClickOutside(target, (event: any) => {
+  isMenuOpen.value = false;
+  // double.value = true;
+  dropdown.value = true;
+});
 </script>
