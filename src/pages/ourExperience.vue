@@ -402,7 +402,7 @@ const pictures3 = [
     src: "https://logowik.com/content/uploads/images/cementos-argos7767.logowik.com.webp",
   },
   {
-    src: "https://www.monomeros.com.co/wp-content/uploads/2022/08/LOGO-MCV.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/commons/8/86/Monomeros_logo.png",
   },
 ];
 const pictures4 = [
