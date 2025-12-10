@@ -28,5 +28,8 @@
       "esbuild",
       "sharp"
     ]
+  },
+  "optionalDependencies": {
+    "@oxc-parser/binding-linux-x64-gnu": "0.102.0"
   }
 }
