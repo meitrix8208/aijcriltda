@@ -4,10 +4,7 @@
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
-          <NuxtLink
-            to="/"
-            class="flex items-center"
-          >
+          <NuxtLink to="/" class="flex items-center">
             <NuxtPicture
               loading="lazy"
               format="webp"
@@ -55,9 +52,7 @@
             </h2>
             <ul class="text-gray-600 dark:text-gray-400 font-medium">
               <li class="mb-4">
-                <a
-                  href="https://twitter.com/JCR6801"
-                  class="hover:underline"
+                <a href="https://twitter.com/JCR6801" class="hover:underline"
                   >Twitter</a
                 >
               </li>
@@ -101,11 +96,8 @@
       <div class="sm:flex sm:items-center sm:justify-between">
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
           >© {{ new Date().getFullYear() }}
-          <NuxtLink
-            to="/"
-            class="hover:underline"
-            >Aijcriltda</NuxtLink
-          >. All Rights Reserved.
+          <NuxtLink to="/" class="hover:underline">Aijcriltda</NuxtLink>. All
+          Rights Reserved.
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a

@@ -4,10 +4,7 @@
       class="max-w-screen-xl flex flex-wrap sm:justify-around items-center justify-between mx-auto p-4"
       ref="target"
     >
-      <NuxtLink
-        to="/"
-        class="flex items-center"
-      >
+      <NuxtLink to="/" class="flex items-center">
         <NuxtPicture
           src="/favicon.png"
           class="h-12 mr-3"

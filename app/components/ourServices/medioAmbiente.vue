@@ -17,18 +17,28 @@
     </p>
     <!-- * green dot -->
     <ul class="pl-6 pt-7 pb-20 list-disc">
-      <li class="pb-1"><span
-          class="dark:text-white"
-        > Estudios de impacto social y ambiental</span></li>
       <li class="pb-1">
-        <span
-          class="dark:text-white"
-        >Asesorías técnicas en impacto y saneamiento ambiental</span>
+        <span class="dark:text-white">
+          Estudios de impacto social y ambiental</span
+        >
       </li>
-      <li class="pb-1"><span class="dark:text-white">Interventorías y auditorías</span></li>
-      <li class="pb-1"><span class="dark:text-white">Gerencia de proyectos</span></li>
-      <li class="pb-1"><span class="dark:text-white">Capacitación ambiental</span></li>
-      <li class="pb-1"><span class="dark:text-white">Evaluación Integra</span></li>
+      <li class="pb-1">
+        <span class="dark:text-white"
+          >Asesorías técnicas en impacto y saneamiento ambiental</span
+        >
+      </li>
+      <li class="pb-1">
+        <span class="dark:text-white">Interventorías y auditorías</span>
+      </li>
+      <li class="pb-1">
+        <span class="dark:text-white">Gerencia de proyectos</span>
+      </li>
+      <li class="pb-1">
+        <span class="dark:text-white">Capacitación ambiental</span>
+      </li>
+      <li class="pb-1">
+        <span class="dark:text-white">Evaluación Integra</span>
+      </li>
       <li class="pb-1"><span class="dark:text-white">Auditorias</span></li>
     </ul>
   </section>

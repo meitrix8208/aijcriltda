@@ -21,10 +21,7 @@
       </li>
     </ul>
     <div class="col-span-3 w-full">
-      <transition
-        name="slide-fade"
-        mode="out-in"
-      >
+      <transition name="slide-fade" mode="out-in">
         <component :is="currentComponent" />
       </transition>
     </div>
