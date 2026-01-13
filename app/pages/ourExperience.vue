@@ -5,11 +5,7 @@
     <div>
       <ul>
         <li>
-          <NuxtPicture
-            class="rounded-lg"
-            src="/check.png"
-            alt="check img"
-          />
+          <NuxtPicture class="rounded-lg" src="/check.png" alt="check img" />
         </li>
       </ul>
     </div>

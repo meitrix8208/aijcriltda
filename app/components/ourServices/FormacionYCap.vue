@@ -32,10 +32,18 @@
           entrenamiento en Operación de Puente grúas.</span
         >
       </li>
-      <li class="pb-1"><span class="dark:text-white">Mejoramiento de procesos</span></li>
-      <li class="pb-1"><span class="dark:text-white">Seguridad e Higiene Industrial</span></li>
-      <li class="pb-1"><span class="dark:text-white">Salud Ocupacional</span></li>
-      <li class="pb-1"><span class="dark:text-white">Prevención de Riesgos</span></li>
+      <li class="pb-1">
+        <span class="dark:text-white">Mejoramiento de procesos</span>
+      </li>
+      <li class="pb-1">
+        <span class="dark:text-white">Seguridad e Higiene Industrial</span>
+      </li>
+      <li class="pb-1">
+        <span class="dark:text-white">Salud Ocupacional</span>
+      </li>
+      <li class="pb-1">
+        <span class="dark:text-white">Prevención de Riesgos</span>
+      </li>
       <li class="pb-1">
         <span class="dark:text-white"
           >Programas de inducción, entrenamiento al cargo y

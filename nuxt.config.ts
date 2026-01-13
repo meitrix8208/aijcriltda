@@ -1,9 +1,8 @@
 import { defineNuxtConfig } from "nuxt/config";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2025-03-17",
+  compatibilityDate: "2025-12-09",
   devtools: { enabled: true },
-  srcDir: "src",
   modules: [
     "@unocss/nuxt",
     "@nuxt/devtools",
@@ -21,9 +20,8 @@ export default defineNuxtConfig({
 
   image: {
     quality: 80,
-    format: ['webp']
-  }
-  ,
+    format: ["webp"],
+  },
   app: {
     pageTransition: {
       name: "page",

@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "aijcriltda",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -12,12 +12,12 @@
     "@nuxt/devtools": "3.1.1",
     "@nuxt/image": "2.0.0",
     "@nuxtjs/color-mode": "4.0.0",
+    "@parcel/watcher": "2.5.4",
     "@types/node": "25.0.8",
     "@unocss/nuxt": "66.5.12",
     "@vueuse/core": "14.1.0",
     "@vueuse/nuxt": "14.1.0",
-    "@parcel/watcher": "2.5.4",
-    "nuxt": "^3.20.2"
+    "nuxt": "4.2.2"
   },
   "dependencies": {
     "@unocss/reset": "66.5.12"

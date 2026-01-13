@@ -36,9 +36,9 @@
         </span>
       </li>
       <li class="pb-1">
-        <span
-          class="dark:text-white"
-        > Programa de rehabilitación integral. </span>
+        <span class="dark:text-white">
+          Programa de rehabilitación integral.
+        </span>
       </li>
     </ul>
   </section>

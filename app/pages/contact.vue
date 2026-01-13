@@ -2,10 +2,7 @@
   <section
     class="max-w-xl mx-auto mt-8 p-8 bg-white dark:bg-gray-800 shadow-md rounded-md"
   >
-    <form
-      method="post"
-      enctype="text/plain"
-    >
+    <form method="post" enctype="text/plain">
       <div class="mb-4">
         <label
           for="mensaje"
@@ -14,10 +11,7 @@
           Envíanos un correo con tus dudas o sugerencias a la siguiente
           dirección:
         </label>
-        <label
-          for="correo"
-          class="block text-sm font-medium text-green-500"
-        >
+        <label for="correo" class="block text-sm font-medium text-green-500">
           juancrodriguez6801@gmail.com
         </label>
         <textarea
@@ -44,7 +38,7 @@ const mensaje = ref("");
 const sendEmail = () => {
   globalThis.open(
     `mailto:juancrodriguez6801@gmail.com?body=${mensaje.value}&subject=Contacto desde la página web`,
-    "_self"
+    "_self",
   );
 };
 </script>
