@@ -12,15 +12,15 @@
     "@nuxt/devtools": "3.1.1",
     "@nuxt/image": "2.0.0",
     "@nuxtjs/color-mode": "4.0.0",
-    "@parcel/watcher": "2.5.1",
-    "@types/node": "24.10.2",
-    "@unocss/nuxt": "66.5.10",
+    "@parcel/watcher": "2.5.4",
+    "@types/node": "25.0.8",
+    "@unocss/nuxt": "66.5.12",
     "@vueuse/core": "14.1.0",
     "@vueuse/nuxt": "14.1.0",
     "nuxt": "4.2.2"
   },
   "dependencies": {
-    "@unocss/reset": "66.5.10"
+    "@unocss/reset": "66.5.12"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
@@ -28,8 +28,5 @@
       "esbuild",
       "sharp"
     ]
-  },
-  "optionalDependencies": {
-    "@oxc-parser/binding-linux-x64-gnu": "0.102.0"
   }
 }
