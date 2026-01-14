@@ -2,7 +2,7 @@
 
 <img
 alt="Asesorías Integrales Juan Carlos Rodríguez Iglesias Ltda."
-src="https://raw.githubusercontent.com/meitrix8208/aijcriltda/main/src/public/favicon.png"
+src="https://raw.githubusercontent.com/meitrix8208/aijcriltda/main/public/favicon.png"
 style="margin-left: auto; margin-right: auto; display: block; width: 100px; height: 100px;"
  />
 
