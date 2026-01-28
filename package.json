@@ -12,12 +12,11 @@
     "@nuxt/devtools": "3.1.1",
     "@nuxt/image": "2.0.0",
     "@nuxtjs/color-mode": "4.0.0",
-    "@parcel/watcher": "2.5.4",
-    "@types/node": "25.0.9",
+    "@types/node": "25.1.0",
     "@unocss/nuxt": "66.6.0",
     "@vueuse/core": "14.1.0",
     "@vueuse/nuxt": "14.1.0",
-    "nuxt": "4.2.2"
+    "nuxt": "4.3.0"
   },
   "dependencies": {
     "@unocss/reset": "66.6.0"
