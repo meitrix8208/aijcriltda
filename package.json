@@ -9,16 +9,17 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@unocss/reset": "66.7.0"
+    "@unocss/reset": "66.7.5"
   },
   "devDependencies": {
-    "@nuxt/devtools": "3.2.4",
-    "@nuxt/image": "2.0.0",
+    "@nuxt/devtools": "3.4.1",
+    "@nuxt/image": "2.1.0",
     "@nuxtjs/color-mode": "4.0.1",
-    "@types/node": "25.9.3",
+    "@types/node": "26.1.2",
     "@unocss/nuxt": "66.7.0",
-    "@vueuse/core": "14.3.0",
-    "@vueuse/nuxt": "14.3.0",
-    "nuxt": "4.4.8"
-  }
+    "@vueuse/core": "14.4.0",
+    "@vueuse/nuxt": "14.4.0",
+    "nuxt": "4.5.2"
+  },
+  "packageManager": "pnpm@11.20.0"
 }

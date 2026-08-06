@@ -1,7 +1,10 @@
 import { defineNuxtConfig } from "nuxt/config";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2025-12-09",
+  compatibilityDate: "2026-08-06",
+  future: {
+    compatibilityVersion: 5
+  },
   devtools: { enabled: true },
   modules: [
     "@unocss/nuxt",
@@ -17,7 +20,6 @@ export default defineNuxtConfig({
     fallback: "light", // fallback value if not system preference found
     classSuffix: "",
   },
-
   image: {
     quality: 80,
     format: ["webp"],
